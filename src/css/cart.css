@@ -1,0 +1,86 @@
+main{
+	width: 100% ;
+}
+main .wrap{
+	width: 985px ;
+	margin:0 auto;
+}
+main .wrap .first li{
+	width: 165px;
+	height: 40px;
+	background: #a7a9ac;
+	float: left;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 5px;
+}
+main .wrap .first li:nth-child(1){
+	background: #ba2620;
+}
+main .wrap .flow_path{
+	height: 41px;
+}
+main .wrap .flow_path .first span{
+	float: left;
+	width: 15px;
+	height: 16px;
+	margin-top: 11px;
+	margin-right: 5px;
+	display: inline-block;
+	background: url(../img/home_105.jpg)no-repeat;
+}
+main .wrap .flow_path .first a{
+	color: white;
+}
+main .wrap .cart_top{
+	width: 930px;
+	padding:12px 0 12px 10px;
+	margin-bottom: 35px;
+	color: #9D1C32;
+	font-style: italic;
+	border:2px solid #d5d5d5;
+	text-align: center;
+	margin-top: 10px;
+}
+main .wrap .cart_bottom .after{
+	width: 100%;
+	padding-top: 20px;
+	border-top: 3px solid #7c0d02;
+}
+main .wrap .cart_bottom .after li{
+	float: left;
+	padding:0 14px;
+}
+main .wrap .cart_bottom .after li a{
+	font-size: 16px;
+	color:#7c0d02;
+}
+main .wrap .cart_bottom .after li:nth-child(1){
+	border-right: 1px solid #7c0d02;
+	border-bottom: 1px solid white;
+}
+main .wrap .cart_bottom .after li:nth-child(2){
+	width: 828px;
+	border-bottom:1px solid #7c0d02;
+	position: relative;
+}
+main .wrap .cart_bottom .after li:nth-child(2) .one{
+	position: absolute;
+	right: 30px;
+	top: -8px;
+}
+main .wrap .cart_bottom .after li:nth-child(2) .two{
+	position: absolute;
+	right: 10px;
+	top:-8px;
+}
+main .wrap .box4{
+	text-align: center;
+	line-height: 160px;
+	margin-top: 23px;
+}
+main .wrap .box4 a{
+	color:  #7c0d02;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/list.css"/>
+		<script src="lib/requirejs/require.js" data-main="js/list"></script>
+	</head>
+	<body>
+			<!--header-->
+		<header>
+		</header>
+		<main>
+			<div class="wrap">
+				<div class="main_header"><a class="javascript:;">首页>>男士</a></div>
+				<h2>男士</h2>
+				<div class="main_box">
+					<div class="main_left">
+						<ul  class="yc">
+							<li>按种类
+								<ul>
+									<li><a href="javascript:;">卸妆.洁面</a></li>
+									<li><a href="javascript:;">化妆水</a></li>
+									<li><a href="javascript:;">乳液.面霜</a></li>
+									<li><a href="javascript:;">眼唇护理</a></li>
+									<li><a href="javascript:;">精华液</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="yc2">
+								<li>
+									<ul>
+										<li><a href="javascript:;">男士系列</a></li>
+									</ul>
+								</li>
+							</ul>
+					</div>	
+					<div class="prod_list"></div>
+					<script type="text/html" id="list_template">
+						{{each list prod}}
+						<div class="list-dodo">
+							<a href="xiangqing.html？id={{prod.id}}"><img src="{{prod.img}}"/></a>
+							<h3>{{prod.title}}</h3>
+							<p>{{prod.guige}}ml</p>
+							<h4>{{prod.price}}￥</h4>
+							<a href="cart.html" id="jiru">进入购物车</a>
+							<a href="list.html" id="xiangq">详情</a>
+						</div>
+						{{/each}}
+					</script>
+				</div>
+				
+			</div>
+		</main>
+		<!--footer-->
+	    <footer>
+	    </footer>
+	</body>
+</html>

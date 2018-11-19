@@ -1,0 +1,513 @@
+/*header{
+	min-width: 1100px;
+	width: 100%;
+	height: 170px;
+	font-size: 14px;
+	color:white;
+	/*overflow: hidden;*/
+/*}
+header a{
+	color: white;
+}
+header .top{
+	height: 34px;
+	padding:0 130px;
+	background: #000000;
+}
+header .top .left{
+	float: left;
+	line-height: 34px;
+	padding-left:27px;
+	background: url(../img/home_03.jpg) no-repeat 1px;
+}
+header .top .right{
+	width: 700px;
+	float: right;
+	line-height: 34px;
+}
+header .top .right .cart{
+	float: right;
+	margin-left:48px ;
+}
+header .top .right .login{
+	float: right;
+	padding-right: ; 23px;
+}
+header .top .right .cart a{
+	padding-left:23px ;
+	background: url(../img/home_05.jpg) no-repeat 1px;
+}
+header .bottom{
+	width: 100%;
+	height: 92px;
+}
+header .bottom .logo{
+	width: 185px;
+	height: 90px;
+	margin:0 auto;
+}
+header .header-top{
+	width: 1100px;
+	height: 44px;
+	margin-left:140px ;
+	margin-bottom: 1px;
+}
+header .header-top .nav ul{
+	width: 774px;
+	height: 44px;
+	font-size: 14px;
+    line-height: 44px;
+    float: left;
+}
+header .header-top .nav ul a{
+	color: black;
+}
+header .header-top .nav ul li{
+    position: relative;
+	float: left;
+	padding:0 10px;
+}
+header .header-top .nav ul li:nth-child(2):hover .hidden_wrap{
+      display: block;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap{
+	display: none;
+	width: 1263px;
+	padding-left:187px;
+	height: 590px;
+	background:#FFFFFF;
+	margin-left: -204px;
+	position: absolute;
+	border-top:1px solid #666666;
+	z-index: 50;
+	color: #CCCCCC;
+}
+header .header-top .nav ul li:hover a{
+	color: #ce2c47;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap a{
+	color: #666666;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_left{
+	width: 440px;
+	color: #666666;
+	float: left;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_left .box1_pic{
+	margin-right: none !important;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_left .box1_pic a img{
+	margin:7px 0px;
+	margin-right: 3px;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_left p{
+	border-bottom:1px solid #cccccc;
+	height: 48px;
+	line-height: 55px;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_left p:hover a{
+	color: black;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_middle{
+	width: 187px;
+	float: left;
+	margin-left: 42px;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_middle p{
+	border-bottom:1px solid #cccccc;
+	height: 48px;
+	line-height: 55px;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_middle p:hover a{
+	color: black;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_middle ul li{
+	float: none;
+	padding: 0;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_middle ul li:hover a{
+	color: black;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_right{
+	width: 187px;
+	float: left;
+	margin-left: 42px;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_right p{
+	border-bottom:1px solid #cccccc;
+	height: 48px;
+	line-height: 55px;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_right p:hover a{
+	color: black;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_right ul li{
+	float: none;
+	padding: 0;
+}
+header .header-top .nav ul li:nth-child(2) .hidden_wrap .hidden_box1_right ul li:hover a{
+	color: black;
+}
+header .header-top .nav ul li:nth-child(2):hover .hidden_wrap{
+      display: block;
+}
+header .header-top .nav ul li:nth-child(9){
+	margin-right: 18px;
+}
+header .header-top .nav ul li:nth-child(10){
+	background: url(../img/p1.jpg)no-repeat 1px 14px;
+	padding-left: 20px;
+	margin-right: 10px;
+}
+header .header-top .nav ul li:hover a{
+	color: #c8102e;
+}
+header .header-top .nav .search{
+	width: 182px;
+	margin-top: 10px;
+	height: 26px;
+	border: 1px solid #d8d8d8;
+	float: left;	
+	overflow: hidden;
+}
+header .header-top .nav .search #search1{
+	width: 162px;
+	height: 24px;
+	border: none;
+	border-right:none ;
+	padding-left:5px ;
+	overflow: hidden;
+}
+header .header-top .nav .search #search2{
+	width: 17px;
+	height: 12px;
+	border: none;
+	color: white;
+	background: url(../img/p0.jpg)no-repeat;
+}*/
+main{
+	width: 100%;
+	overflow: hidden;
+}
+main .wrap{
+	margin:0px 80px;
+	padding-top: 25px;
+}
+main .wrap .top{
+	width: 1100px;
+	height: 196px;
+	overflow: hidden;
+}
+main .wrap ul{
+	width: 100%;
+	height: 196px;
+}
+main .wrap ul li{
+	width: 188px;
+	height: 196px;
+	margin-right: 10px;
+	float: left;
+	position: relative;
+}
+main .wrap ul li .character{
+	text-align: center;
+	width: 158px;
+	height: 37px;
+	background: #aeb0b3;
+	position: absolute;
+	top: 12px;
+	right: 0;
+	z-index: 1;
+	line-height: 37px;
+	font-size: 14px;
+	overflow: hidden;
+}
+main .wrap ul li .graph{
+	color: white;
+	position: absolute;
+	text-align: center;
+	width: 52px;
+	height: 52px;
+	left: 6px;
+	top: 5px;
+	z-index: 2;
+	background: #a81519;
+	border-radius:50%;
+	line-height: 52px;
+	font-size: 39px;
+}
+main .wrap .top ul li:first-child{
+	background: url(../img/login_03.png)no-repeat;
+}
+main .wrap .top ul li:nth-child(2){
+	background: url(../img/login_05.png)no-repeat;
+}
+main .wrap .top ul li:nth-child(3){
+	background: url(../img/login_07.png)no-repeat;
+}
+main .wrap .top ul li:nth-child(4){
+	background: url(../img/login_09.png)no-repeat;
+}
+main .wrap .top ul li:nth-child(5){
+	background: url(../img/login_11.png)no-repeat;
+}
+main .wrap .login_left{
+	width: 446px;
+	float:left;
+	margin-right: 30px;
+	height: 315px;
+	margin-top: 60px;
+	text-align: center;
+	border:1px solid #CCCCCC;
+}
+main .wrap .login_left form h2{
+	width: 100%;
+	font-size: 18px;
+	line-height: 18px;
+	padding-top: 38px;
+	font-weight: normal;
+}
+main .wrap .login_left form .p1{
+	line-height: 40px;
+	font-size: 14px;
+}
+main .wrap .login_left form #user1{
+	display: block;
+	width: 165px;
+	height: 24px;
+	padding-left: 3px;
+	margin:0 auto;border:1px solid #CCCCCC;
+	color: #666666;
+}
+main .wrap .login_left form #password{
+	display: block;
+	width: 165px;
+	height: 24px;
+	padding-left: 3px;
+	margin:0 auto;border:1px solid #CCCCCC;
+	color: #666666;
+	margin-top: 10px;
+}
+main .wrap .login_left form p a{
+	font-size: 14px;
+	width: 168px;
+	display: block;
+	margin:0 auto;
+	color: #000000;
+    line-height: 24px;
+    margin-top: 10px;
+    text-align:initial;
+}
+main .wrap .login_left form span{
+	margin-top: 21px;
+	display: block;
+}
+main .wrap .login_left form span label{
+	padding-left: 3px;
+	color: #666666;
+	line-height: 24px;
+	font-size:14px;
+	padding-left: 3px;
+}
+main .wrap .login_left form span label a{
+	color: #0563c3;
+}
+main .wrap .login_left form #anniu{
+	width: 86px;
+	height: 29px;
+	background: #9e1503;
+	color: #FFFFFF;
+	border: none;
+    line-height: 29px;
+    margin-top:10px ;
+}
+main .wrap .login_right{
+	width:500px;
+	height: 665px;
+	margin-top: 60px;
+	float: left;
+	border: 1px solid #CCCCCC;
+}
+main .wrap .login_right h3{
+	width: 100%;
+	padding-top: 35px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+}
+main .wrap .login_right p{
+	line-height: 40px;
+	font-size: 13px;
+	text-align: center;
+}
+main .wrap .login_right table{
+	width: 100%;
+}
+main .wrap .login_right tr td{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	padding-bottom:12px;
+	line-height: 31px;
+	font-size: 13px;
+	vertical-align: top;
+}
+main .wrap .login_right tr td input{
+	display: block;
+	width: 165px;
+	height: 24px;
+	padding-left: 3px;
+	margin:0 auto;
+	border:1px solid #CCCCCC;
+	color: #666666;
+    padding:0 0 0 3px;
+    margin-bottom: 9px;
+}
+main .wrap .login_right tr .sub_in2 span{
+	font-style: italic;
+	color: #9d1c32;
+}
+main .wrap .login_right tr .sub_in3 #showPwd{
+	position: absolute;
+   width:24px ;
+	padding-left: 30px;
+	top: 1px;
+	font-size: 13px;
+	left: 340px;
+	width: 20px;
+	height: 22px;
+} 
+main .wrap .login_right tr  p{
+	display: none;
+	position: absolute;
+	margin-left: 30px;
+	top: -9px;
+	font-size: 12px;
+	color:#9d1c32 ;
+	left: 338px;
+}
+main .wrap .login_right tr .sub_in4 input{
+	width: 70px;
+}
+main .wrap .login_right tr .sub_in4 a{
+	color: #0563c3;
+}
+main .wrap .login_right tr .sub_in6 input{
+	width:95px;
+	margin-left: 164px;
+}
+main .wrap .login_right tr .sub_in6 a{
+	display: block;
+	position: absolute;
+	left: 270px;
+	top: 0;
+	line-height: 26px;
+	color: #0563c3;
+}
+main .wrap .login_right tr .sub_in8 .tixing1{
+	display: block;
+	width: 100%;
+	font-style: italic;
+	color: #9d1c32;
+}
+main .wrap .login_right tr .sub_in9 #sex_0{
+	display:none ;
+	height: 13px;
+	width: 13px;
+}
+main .wrap .login_right .box{
+	width: 100%;
+	text-align: center;
+	font-size: 13px;
+}
+main .wrap .login_right .box .box_wrap{
+	margin-bottom: 33px;
+}
+main .wrap .login_right .box .box_wrap1{
+	padding-bottom: 15px;
+	border-bottom:1px solid #CCCCCC;
+}
+main .wrap .login_right form .box2{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-size: 13px;
+}
+main .wrap .login_right form .box2 a{
+	color: #0563c3;
+}
+main .wrap .login_right form .box3{
+	text-align: center;
+}
+main .wrap .login_right form .box3 input{
+	width: 86px;
+	height: 39px;
+	background: #9E1503;
+	color: #FFFFFF;
+	border: none;
+	line-height: 29px;
+}
+/*footer{
+	width: 100%;
+     height: 197px;
+     background: #eeeeee;
+     
+}
+footer .footer_warp{
+	width: 960px;
+	height: 100%;
+	min-width: 958px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 46px;
+}
+footer .footer_warp ul{
+	width:447px;
+	float: left;
+	height:25px ;
+}
+footer .footer_warp ul li{
+	float:left;
+}
+footer .footer_warp ul li a{
+	display: block;
+	font-size: 12px;
+	color:#666666;
+	margin-top:5px;
+	padding:0 10px;
+	border-right: 1px solid #666666;
+}
+footer .footer_warp .footer_top{
+	height: 22px;
+}
+footer .footer_warp .footer_top p{
+	float: right;
+	font-size: 12px;
+	color: #666666;
+	line-height: 22px;
+}
+footer .footer_warp .footer_top p a{
+	margin-left: 5px;
+}
+footer .footer_warp .footer_top p a img{
+	width: 25px;
+	height: 22px;
+}
+footer .footer_warp .footer_bottom{
+	margin-top: 22px;
+}
+footer .footer_warp .footer_bottom p{
+	float: left;
+	width: 100%;
+	font-size:12px;
+	color: #666666;
+	line-height: inherit;
+	padding-left:10px;
+}
+footer .footer_warp .footer_bottom p .first{
+	color: #0563c3;
+}
+footer .footer_warp .footer_bottom p .last{
+	color: #939393;
+}*/

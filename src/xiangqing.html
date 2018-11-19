@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/xiangqing.css"/>
+		<script src="lib/requirejs/require.js" data-main="js/xiangqing"></script>
+	</head>
+	<body>
+		<!--header-->
+		<header>
+		</header>
+		<main>
+			<div class="wrap">
+				<div class="main_box">
+					<div class="main_left">
+						<ul  class="yc">
+							<li>按种类
+								<ul>
+									<li><a href="javascript:;">卸妆.洁面</a></li>
+									<li><a href="javascript:;">化妆水</a></li>
+									<li><a href="javascript:;">乳液.面霜</a></li>
+									<li><a href="javascript:;">眼唇护理</a></li>
+									<li><a href="javascript:;">精华液</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="yc2">
+								<li>
+									<ul>
+										<li><a href="javascript:;">男士系列</a></li>
+									</ul>
+								</li>
+							</ul>
+					</div>	
+					<div class="main_right"></div>
+						<script type="text/html" id="xiangqing_template">
+						
+						<div class="list-dodo">
+							<a><img src="{{list.img}}"/></a>
+							<a><img src="{{list.img1}}"/></a>
+							<h3>{{list.title}}</h3>
+							<p class="p8">{{list.guige}}ml</p>
+							<p class="p9">{{list.desc}}</p>
+							<h4>{{list.price}}￥</h4>
+							<a href="cart.html" id="jiru">进入购物车</a>
+						</div>
+
+					</script>
+					
+				</div>
+			</div>
+		</main>
+		<!--footer-->
+	    <footer>
+	    	<!--<div class="footer_warp">
+	    		<div class="footer_top">
+	    			<ul>
+	    				<li><a href="#">美容常见问题</a></li>
+	    			    <li><a href="#">网站常见问题</a></li>
+	    			    <li><a href="#">免责·隐私权保护</a></li>
+	    			    <li><a href="#">联系我们</a></li>
+	    			    <li><a href="#">服务条款</a></li>
+	    			</ul>
+	    			<p>分享到网站<a href="#"><img src="img/home_132.png"/></a></p>
+	    		</div>
+	    		<div class="footer_bottom">
+	    			<p>Copyright(c) 2015资生堂(中国)投资有限公司；Shiseido China Co., Ltd. All rights reserved</p>
+	    			<p><a href="#" class="first">沪ICP备10203872号-1</a>&nbsp;<a href="#" class="first">企业营业执照</a>&nbsp;SHISEIDO资生堂官方网站暨网上商城 全国咨询热线：400-821-6076</p>
+	    			<p>专柜以及促销信息查询→全国免费咨询热线： 800-820-1010</p>
+	    			<p><a href="#" class="last"><img src="img/beian.png"/> 31011502007430号</a></p>
+	    		</div>
+	    	</div>-->
+	    </footer>
+	</body>
+</html>
